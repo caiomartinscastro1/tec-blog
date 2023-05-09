@@ -1,0 +1,179 @@
+/*Gerais*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.clear{
+    clear: both;
+}
+
+/*Body*/
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/*header*/
+
+header{
+    background-color: #f7b600;
+     padding: 15px;
+     text-align: center;
+     box-shadow: 2px 2px 6px black;
+}
+
+div#logo{
+    padding: 10px;
+}
+
+#branco{
+    color: white;
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+    
+}
+
+/*Nav*/
+
+nav{
+    padding: 10px;
+    
+}
+
+nav a{
+    padding: 4px 5px;
+    margin: 0px 2px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-shadow: 1px 1px 4px black;
+}
+
+a:hover{
+    background-color: white;
+    color: #f7b600;
+    transition: 1.5s;
+}
+
+/*main*/
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1100px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 4px black;
+    margin-bottom: 7px;
+    
+}
+
+main a{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+main p{
+    width: 640px;
+    text-align: justify;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+main img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*Postagens*/
+
+div#postagens{
+    width: 700px;
+    padding: 5px;
+    float: left;
+}
+
+
+.conteudo{
+    padding: 20px;
+    width: 640px;
+}
+
+.conteudo h2{
+    color: #f7b600;
+    text-shadow: 1px 1px 2px black ;
+}
+
+/*Aside*/
+aside{
+    width: 350px;
+    padding: 5px;
+    float: right;
+    font-size: 0.8em;
+    padding: 5px;
+    margin-right:24px ;
+    margin-top: 31px;
+}
+
+aside h3{
+    background-color: rgb(154, 158, 163);
+    font-size: 16px;
+    padding: 5px;
+}
+
+.postagem-lateral{
+    text-align: justify;
+}
+
+aside p{
+    width: 350px;
+}
+
+.categorias{
+    margin-top: 20px;
+}
+
+aside ul{
+    list-style: none;
+    line-height: 30px;
+}
+
+ul a{
+    font-weight: bolder;
+    color: #f7b600;
+    font-size: 16px;
+}
+
+
+li a:hover{
+    transition: none;
+    background-color: #f7b600;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+/*footer*/
+
+footer{
+    background-color: orangered;
+    text-align: center;
+    font-style: italic;
+    padding: 6px;
+    font-size: 14px;
+    margin: 0px;
+}
+
+
